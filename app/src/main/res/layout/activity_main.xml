@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/telefono"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="NUMERO DE TELEFONO"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:text="MARCA"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="139dp"
+        tools:ignore="MissingConstraints"
+        android:onClick="intentTeleno"/>
+
+    <EditText
+        android:id="@+id/paginaweb"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textUri"
+        android:text="PAGINA WEB"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="207dp"
+       />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="ABRIR PAGINA WEB"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="293dp"
+        tools:ignore="MissingConstraints"
+        android:onClick="intentWeb"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:text="ABRIR MAPAS"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="386dp"
+        tools:ignore="MissingConstraints"
+        android:onClick="intentMaps"/>
+
+</android.support.constraint.ConstraintLayout>
